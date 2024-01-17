@@ -11,7 +11,8 @@
 </br>
 <p align="center"> 
  <a href="https://www.w3.org/html/" target="_blank"> 
-     <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/mysql_official_logo_icon_169938.png" alt="sql" height="100"/></a> </br>
+     <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/mysql_official_logo_icon_169938.png" alt="sql" height="100"/></a> 
+    <h1>&nbsp</h1>
  <a href="https://www.w3schools.com/css/" target="_blank"> 
  <img src="https://miro.medium.com/v2/resize:fit:1100/0*5FEJ7emIEAxZRCQF" alt="spring-boot"  height="100"/></a> 
 </p>
