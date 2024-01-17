@@ -6,7 +6,7 @@
 
 <p align="center"> 
 <a href="https://developer.mozilla.org/en-US/docs/Web/Java" target="_blank"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="100" height="100"/></a> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="200" height="200"/></a> 
 </p>
 <p align="center"> 
  <a href="https://www.w3.org/html/" target="_blank"> 
