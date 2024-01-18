@@ -4,11 +4,9 @@
 
 # Bienvenidos a la Comisión #53320
 
-<p align="center"> 
-<a href="https://developer.mozilla.org/en-US/docs/Web/Java" target="_blank"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java"  height="250"/></a> 
-</p>
-</br>
+<br><p align="center">
+<img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" alt="Java" width=500></p>
+
 <p align="center"> 
  <a href="https://www.w3.org/html/" target="_blank"> 
      <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/mysql_official_logo_icon_169938.png" alt="sql" height="100"/></a> 
