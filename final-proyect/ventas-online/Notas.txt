@@ -1,0 +1,5 @@
+#docker run -d --name postgres -e POSTGRES_PASSWORD=postgres -e PGDATA=/var/lib/postgresql/data/pgdata -v postgres:/var/lib/postgresql/data postgres
+
+#https://www.pgadmin.org/download/pgadmin-4-windows/
+
+docker run -d -p 33060:3306 --name mysql-db  -e MYSQL_ROOT_PASSWORD=123456 -v mysql:/var/lib/mysql mysql
