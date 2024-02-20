@@ -17,12 +17,18 @@
 
 ---
 
-
-
 ## Entrega Final:
 
-### El Proyecto Integrador debe incluir todos los temas vistos en el Curso.
+### El Proyecto Integrador debe incluir todos los temas vistos en el Curso:
 
----
+<p align="center"> 
+ <img src="./final-proyect/001.png" alt="sql" width="600"/>
+  <img src="./final-proyect/002.png" alt="sql" width="600"/>
+   <img src="./final-proyect/003.png" alt="sql" width="600"/>
+    <img src="./final-proyect/004.png" alt="sql" width="600"/>
+     <img src="./final-proyect/005.png" alt="sql" width="600"/>
+      <img src="./final-proyect/006.png" alt="sql" width="600"/>
+
+</p>
 
 ## Profesor: Alejandro Daniel Di Stefano
