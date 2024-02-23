@@ -8,6 +8,7 @@ public class Decrementos {
 		System.out.println("El valor de x de Post es: " + x);
 		--x;
 		System.out.println("El valor de x de Pre es: " + x);
+System.out.println("x = " + x);
 
 	}
 
