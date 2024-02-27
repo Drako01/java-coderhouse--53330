@@ -39,7 +39,7 @@
 Exploraremos conceptos fundamentales en Java que son esenciales para comprender y escribir programas efectivos. Estos conceptos son básicos pero críticos para cualquier estudiante de Java, ya que forman la base sobre la cual se construyen programas más complejos y sofisticados. Los términos que abordaremos incluyen public, static, void, private y más. Comencemos desglosando cada uno de estos términos.
 
 1. public
-public es un modificador de acceso que se aplica a clases, métodos y variables. Cuando un miembro de una clase se declara como public, está disponible para su acceso desde cualquier otra clase. Es decir, se puede acceder a él desde fuera de la clase donde está definido.
+ es un modificador de acceso que se aplica a clases, métodos y variables. Cuando un miembro de una clase se declara como public, está disponible para su acceso desde cualquier otra clase. Es decir, se puede acceder a él desde fuera de la clase donde está definido.
 
 Ejemplo:
 ```
@@ -52,7 +52,7 @@ public class MiClase {
 ```
 
 2. private
-private es otro modificador de acceso. Cuando un miembro de una clase se declara como private, solo es accesible dentro de la misma clase. Esto significa que otros objetos o clases no pueden acceder directamente a este miembro.
+ es otro modificador de acceso. Cuando un miembro de una clase se declara como private, solo es accesible dentro de la misma clase. Esto significa que otros objetos o clases no pueden acceder directamente a este miembro.
 
 Ejemplo:
 ```
@@ -65,7 +65,7 @@ public class MiClase {
 ```
 
 3. static
-static es una palabra clave utilizada para crear campos o métodos que pertenecen a la clase en sí, en lugar de pertenecer a instancias individuales de la clase. Los miembros static se pueden acceder sin la necesidad de crear una instancia de la clase.
+ es una palabra clave utilizada para crear campos o métodos que pertenecen a la clase en sí, en lugar de pertenecer a instancias individuales de la clase. Los miembros static se pueden acceder sin la necesidad de crear una instancia de la clase.
 
 Ejemplo:
 ```
@@ -78,7 +78,7 @@ public class MiClase {
 ```
 
 4. void
-void es una palabra clave utilizada para indicar que un método no devuelve ningún valor. Cuando un método tiene un tipo de retorno void, significa que el método realiza ciertas acciones pero no devuelve ningún valor al llamador.
+ es una palabra clave utilizada para indicar que un método no devuelve ningún valor. Cuando un método tiene un tipo de retorno void, significa que el método realiza ciertas acciones pero no devuelve ningún valor al llamador.
 
 Ejemplo:
 ```
@@ -90,7 +90,7 @@ public class MiClase {
 ```
 
 5. main
-main es el punto de entrada para la ejecución de un programa Java. Es el método que se ejecuta cuando se inicia un programa Java y su firma debe ser exactamente como sigue:
+ es el punto de entrada para la ejecución de un programa Java. Es el método que se ejecuta cuando se inicia un programa Java y su firma debe ser exactamente como sigue:
 
 
 ```
@@ -101,7 +101,7 @@ Aquí, public indica que el método es accesible desde cualquier otra clase, sta
 Estos conceptos son fundamentales en Java y proporcionan la base para comprender cómo se estructuran y comportan los programas en este lenguaje de programación. Dominar estos conceptos es esencial para cualquier estudiante de Java que desee escribir programas eficientes y bien estructurados.
 
 6. class
-class es una palabra clave utilizada para definir una nueva clase en Java. Una clase es un plano, una plantilla o un molde a partir del cual se pueden crear objetos. Define las propiedades (campos) y comportamientos (métodos) comunes a todos los objetos de ese tipo.
+ es una palabra clave utilizada para definir una nueva clase en Java. Una clase es un plano, una plantilla o un molde a partir del cual se pueden crear objetos. Define las propiedades (campos) y comportamientos (métodos) comunes a todos los objetos de ese tipo.
 
 Ejemplo:
 ```
@@ -111,7 +111,7 @@ public class MiClase {
 ```
 
 7. new
-new es una palabra clave utilizada para crear una nueva instancia de una clase. Reserva memoria para el nuevo objeto y llama al constructor de la clase para inicializarlo.
+ es una palabra clave utilizada para crear una nueva instancia de una clase. Reserva memoria para el nuevo objeto y llama al constructor de la clase para inicializarlo.
 
 Ejemplo:
 ```
@@ -119,7 +119,7 @@ MiClase objeto = new MiClase();
 ```
 
 8. return
-return es una palabra clave utilizada dentro de un método para devolver un valor al código que llamó al método. Marca el final del método y puede devolver un valor del tipo especificado en la firma del método, si corresponde.
+ es una palabra clave utilizada dentro de un método para devolver un valor al código que llamó al método. Marca el final del método y puede devolver un valor del tipo especificado en la firma del método, si corresponde.
 
 Ejemplo:
 ```
@@ -129,7 +129,7 @@ public int sumar(int a, int b) {
 ```
 
 9. this
-this es una palabra clave que se refiere a la instancia actual de la clase. Se utiliza para diferenciar entre los campos de la clase y los parámetros de los métodos o constructores cuando tienen el mismo nombre.
+ es una palabra clave que se refiere a la instancia actual de la clase. Se utiliza para diferenciar entre los campos de la clase y los parámetros de los métodos o constructores cuando tienen el mismo nombre.
 
 Ejemplo:
 ```
@@ -143,7 +143,7 @@ public class Persona {
 ```
 
 10. final
-final es una palabra clave que se puede aplicar a una clase, método o variable. Cuando se aplica a una clase, indica que la clase no puede ser subclaseada. Cuando se aplica a un método, indica que el método no puede ser sobrescrito. Cuando se aplica a una variable, indica que su valor no puede cambiar después de la inicialización.
+ es una palabra clave que se puede aplicar a una clase, método o variable. Cuando se aplica a una clase, indica que la clase no puede ser subclaseada. Cuando se aplica a un método, indica que el método no puede ser sobrescrito. Cuando se aplica a una variable, indica que su valor no puede cambiar después de la inicialización.
 
 Ejemplo:
 ```
