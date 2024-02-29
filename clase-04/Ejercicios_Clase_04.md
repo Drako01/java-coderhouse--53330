@@ -65,7 +65,9 @@ Crea una clase `Cuadrado` que tenga un atributo `lado`. Agrega un método para c
 ----
 
 
+
 ##Prof. Alejandro Di Stefano
+
 ## Comisión #53330 - CoderHouse
 
 
