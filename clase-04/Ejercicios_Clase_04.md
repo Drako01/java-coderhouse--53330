@@ -60,3 +60,16 @@ Declara una matriz (array bidimensional) de enteros de tamaño 3x3, inicialízal
 ## Ejercicio 20: Objetos y Métodos
 Crea una clase `Cuadrado` que tenga un atributo `lado`. Agrega un método para calcular el área del cuadrado.
 
+
+
+----
+
+
+##Prof. Alejandro Di Stefano
+## Comisión #53330 - CoderHouse
+
+
+
+<p align="center"> 
+    <img src="https://jobs.coderhouse.com/assets/logos_coderhouse.png" alt="CoderHouse"  height="100"/>
+</p>
