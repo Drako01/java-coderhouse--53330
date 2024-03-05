@@ -60,3 +60,49 @@ Modifica la clase `Animal` para que el atributo `nombre` sea privado y proporcio
 ## Ejercicio 40: Excepciones
 Escribe un programa que tome una cadena como entrada y convierta su contenido a un número entero. Maneja la excepción en caso de que la cadena no sea un número válido e imprime un mensaje adecuado en caso de que ocurra esta situación.
 
+
+## Ejercicio 41: Equals y HashCode
+Crea una clase `Libro` con atributos `titulo`, `autor` y `isbn`. Implementa los métodos `equals()` y `hashCode()` para comparar dos libros por su ISBN.
+
+## Ejercicio 42: Equals y HashCode
+Define una clase `Persona` con atributos `nombre` y `edad`. Implementa los métodos `equals()` y `hashCode()` para comparar dos personas por su nombre y edad.
+
+## Ejercicio 43: Equals y HashCode
+Crea una clase `Producto` con atributos `nombre`, `precio` y `codigo`. Implementa los métodos `equals()` y `hashCode()` para comparar dos productos por su código.
+
+## Ejercicio 44: Equals y HashCode
+Define una clase `CuentaBancaria` con atributos `numero` y `saldo`. Implementa los métodos `equals()` y `hashCode()` para comparar dos cuentas bancarias por su número.
+
+## Ejercicio 45: Equals y HashCode
+Crea una clase `Coche` con atributos `marca`, `modelo` y `año`. Implementa los métodos `equals()` y `hashCode()` para comparar dos coches por su marca, modelo y año.
+
+## Ejercicio 46: Equals y HashCode
+Define una clase `Alumno` con atributos `nombre`, `edad` y `carrera`. Implementa los métodos `equals()` y `hashCode()` para comparar dos alumnos por su nombre y carrera.
+
+## Ejercicio 47: Equals y HashCode
+Crea una clase `Empleado` con atributos `nombre`, `departamento` y `salario`. Implementa los métodos `equals()` y `hashCode()` para comparar dos empleados por su nombre y departamento.
+
+## Ejercicio 48: Equals y HashCode
+Define una clase `Telefono` con atributos `marca`, `modelo` y `numero`. Implementa los métodos `equals()` y `hashCode()` para comparar dos teléfonos por su número.
+
+## Ejercicio 49: Equals y HashCode
+Crea una clase `Ciudad` con atributos `nombre` y `codigoPostal`. Implementa los métodos `equals()` y `hashCode()` para comparar dos ciudades por su código postal.
+
+## Ejercicio 50: Equals y HashCode
+Define una clase `Curso` con atributos `nombre`, `profesor` y `horario`. Implementa los métodos `equals()` y `hashCode()` para comparar dos cursos por su nombre y profesor.
+
+## Ejercicio 51: Excepciones
+Crea una clase `Calculadora` con un método `dividir()` que tome dos números como parámetros y devuelva el resultado de la división. Asegúrate de manejar la excepción en caso de que el segundo número sea cero.
+
+## Ejercicio 52: Excepciones
+Define una clase `Archivo` con un método `leerArchivo()` que simule la lectura de un archivo y lance una excepción en caso de que el archivo no exista.
+
+## Ejercicio 53: Excepciones
+Crea una clase `ListaNumeros` con un método `buscarNumero()` que tome una lista de números y un número objetivo como parámetros y devuelva la posición del número objetivo en la lista. Maneja la excepción en caso de que el número objetivo no esté presente en la lista.
+
+## Ejercicio 54: Excepciones
+Define una clase `Conversor` con un método `convertirCadenaANumero()` que tome una cadena como parámetro y la convierta a un número entero. Maneja la excepción en caso de que la cadena no sea un número válido.
+
+## Ejercicio 55: Excepciones
+Crea una clase `BaseDatos` con un método `consultarDatos()` que simule la consulta a una base de datos y lance una excepción en caso de que la conexión a la base de datos falle.
+
