@@ -10,7 +10,7 @@ public class Perro extends Animal { // Perro hereda de Animal
 
 	// Constructores
 	public Perro() {
-		super();
+		
 	}
 
 	public Perro(String clase, boolean extinto, Integer edad, String genero, String raza, String color, String nombre) {

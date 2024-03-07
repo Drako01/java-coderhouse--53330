@@ -8,8 +8,7 @@ public class Animal {
 	private Integer edad;
 	private String genero;
 
-	public Animal() {
-		super();
+	public Animal() {		
 	}
 
 	public Animal(String clase, boolean extinto, Integer edad, String genero) {
