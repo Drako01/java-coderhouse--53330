@@ -68,8 +68,8 @@
 # Datos iniciales:
 
 ```
-CREATE DATABASE IF NOT EXISTS pruebas;
-USE pruebas;
+CREATE DATABASE IF NOT EXISTS coderhouse;
+USE coderhouse;
 ```
 
 
