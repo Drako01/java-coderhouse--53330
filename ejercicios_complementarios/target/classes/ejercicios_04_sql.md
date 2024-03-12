@@ -75,7 +75,7 @@ USE coderhouse;
 
 ```
 CREATE TABLE IF NOT EXISTS usuarios (
-   idx INT PRIMARY KEY AUTO_INCREMENT,
+   id INT PRIMARY KEY AUTO_INCREMENT,
    usuario VARCHAR(20),
    nombre VARCHAR(20),
    sexo VARCHAR(1),
