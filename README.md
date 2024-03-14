@@ -189,4 +189,26 @@ class MiClase {
 }
 ```
 
+
+----
+## Datos interesantes:
+
+### application.properties en Spring Boot:
+
+El archivo application.properties es un archivo de configuración en Spring Boot que se utiliza para definir propiedades específicas de la aplicación. Aquí puedes configurar cosas como la base de datos que la aplicación utilizará, el puerto en el que se ejecutará la aplicación, configuraciones de seguridad, entre otras. Es una forma de personalizar el comportamiento de tu aplicación sin necesidad de cambiar el código fuente.
+
+### JPA (Java Persistence API):
+
+JPA es una API de Java que proporciona un conjunto de especificaciones para trabajar con bases de datos relacionales en aplicaciones Java. Permite a los desarrolladores mapear objetos Java a tablas en una base de datos relacional y viceversa, simplificando el proceso de interactuar con la base de datos. Con JPA, puedes realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en la base de datos de manera más sencilla y utilizando objetos Java.
+
+### Hibernate:
+
+Hibernate es un framework de mapeo objeto-relacional (ORM) para Java. Se utiliza comúnmente junto con JPA para implementar las especificaciones de JPA de manera eficiente. Hibernate simplifica el desarrollo de aplicaciones Java al proporcionar una capa de abstracción sobre la base de datos subyacente, permitiendo a los desarrolladores interactuar con la base de datos utilizando objetos Java en lugar de consultas SQL directas. Esto hace que el desarrollo de aplicaciones que requieren acceso a bases de datos sea más rápido y menos propenso a errores.
+
+
+### En resumen: 
+
+Mientras que JPA es una especificación estándar para mapear objetos Java a bases de datos relacionales, Hibernate es una implementación popular de esta especificación que simplifica el desarrollo de aplicaciones Java al proporcionar funcionalidades ORM.
+
+
 ## Profesor: Alejandro Daniel Di Stefano
