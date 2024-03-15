@@ -153,7 +153,7 @@ public class JavaDataBaseController {
 			String query = "DELETE FROM alumnos WHERE dni = ?";
 			statement = connection.prepareStatement(query);
 			statement.setDouble(1, dni);
-			
+
 			int rowsAffected = statement.executeUpdate();
 			if (rowsAffected == 0) {
 				throw new SQLException("No se pudo eliminar al alumno con DNI: " + dni);
@@ -173,22 +173,20 @@ public class JavaDataBaseController {
 
 	}
 
-	public void insertarCurso (Curso curso) {
+	public void insertarCurso(Curso curso) {
 		PreparedStatement statement = null;
 		String query = "INSERT INTO cursos ( titulo, descripcion) VALUES (?, ?)";
 
 		try {
-			statement = connection.prepareStatement(query);			
-			statement.setString(1, curso.getTitulo());			
+			statement = connection.prepareStatement(query);
+			statement.setString(1, curso.getTitulo());
 			statement.setString(2, curso.getDescripcion());
 			int rowsAffected = statement.executeUpdate();
 
 			if (rowsAffected == 0) {
-				throw new SQLException(
-						"No se pudo insertar el curso: " + curso.getTitulo() );
+				throw new SQLException("No se pudo insertar el curso: " + curso.getTitulo());
 			}
-			System.out.println(
-					"El Curso " + curso.getTitulo() + " fue insertado correctamente");
+			System.out.println("El Curso " + curso.getTitulo() + " fue insertado correctamente");
 
 		} catch (SQLException e) {
 			System.err.println(e.getMessage());
