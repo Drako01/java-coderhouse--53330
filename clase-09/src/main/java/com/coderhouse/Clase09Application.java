@@ -101,7 +101,6 @@ public class Clase09Application implements CommandLineRunner{
 		}
 	}
 	
-	
 	public void listarTodosLosAlumnos() {
 		List<Alumno> listaAlumnos = alumnoRepository.findAll();
 		if(listaAlumnos.isEmpty()) {
