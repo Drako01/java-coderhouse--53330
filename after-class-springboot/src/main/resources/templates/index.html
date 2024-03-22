@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="expires" content="0">
+<meta http-equiv="Cache-Control">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Titulo de la Pagina</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}" />
+</head>
+<body>
+<header>
+		<nav class="navbar">
+			<ul class="d-flex row evenly">
+				<li><a href="/" rel="noopener noreferrer">Home</a></li>
+				<li><a href="/productos-para-comprar" rel="noopener noreferrer">Productos</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<h1>Bienvenido a mi aplicación Spring Boot</h1>
+	<h2>Comision #53330</h2>
+	<section class="logo d-flex column center"> 
+		<img th:src="@{/img/logo.png}" alt="Logo"> 
+		<img src="https://comparte-entity-photos.s3.us-east-2.amazonaws.com/39144702-7af9-45a6-8e18-3eb28648fa8a.png"
+		alt="Coderhouse" class="" /> 
+	</section>
+	
+</body>
+</html>

@@ -1,0 +1,198 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: grey;
+	color: white;
+	font-family: "Roboto";
+}
+
+h1, h2, h4 {
+	text-align: center;
+	padding: 1rem;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.d-flex {
+	display: flex;
+	width: 100%;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.row {
+	flex-direction: row;
+}
+
+.evenly {
+	justify-content: space-evenly;
+}
+
+.center {
+	align-items: center;
+	justify-content: center;
+}
+
+.footer {
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	height: 4vh;
+	background-color: #4045b8;
+	color: fff;
+}
+
+.footer p {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+.logotipo {
+	width: 480px;
+	padding: 2rem;
+	filter: drop-shadow(0 .5rem 1rem #404040);
+}
+
+.navbar {
+	height: 4rem;
+	background-color: white;
+}
+
+.navbar li {
+	padding: 1rem;
+}
+
+.navbar li a, .navbar li p {
+	color: #4045b8;
+	font-size: 1.5rem;
+}
+
+.navbar li a:hover {
+	color: #404040;
+	text-shadow: 0 .12rem .5rem #424242;
+}
+
+.bienvenido {
+	margin-top: 3rem;
+}
+
+.bienvenido h1 {
+	font-size: 2.5rem;
+	letter-spacing: .5rem;
+	text-transform: uppercase;
+	color: yellow;
+}
+
+.producto {
+	max-width: 400px;
+	padding: 2rem;
+}
+
+.contacto {
+	max-width: 150px;
+	padding: 2rem;
+}
+
+.card {
+	max-width: 280px;
+	padding: 2rem;
+	border: 1px solid #40404080;
+	background-color: #40404050;
+	border-radius: 1rem;
+	box-shadow: 1rem 1rem 2rem #40404040;
+}
+
+.product-card {
+	max-width: 280px;
+	padding: 1rem;
+}
+
+.btn {
+	min-width: 5rem;
+	height: 2rem;
+	border: none;
+	border-radius: .2rem;
+	background-color: yellow;
+	color: #4045b8;
+	font-size: 1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: .2rem 1rem;
+	margin-top: 2rem;
+	cursor: pointer;
+}
+
+.cart-ico {
+	width: 32px;
+}
+
+.cart-li p {
+	padding: 0 .5rem;
+	background-color: yellow;
+	color: #4045b8;
+	border-radius: 50%;
+	border: 1px solid #000;
+	margin-left: 1rem;
+}
+
+form label {
+	padding: .5rem 0;
+}
+
+form select, form button, form input {
+	height: 2rem;
+	width: calc(80% - 30rem);
+	padding: .1rem 1rem;
+}
+
+.tabla table {
+	width: calc(100% - 12rem);	
+	padding: 4rem;
+}
+
+.tabla table tr th{
+	background-color: #000;
+}
+.tabla table tr th,
+.tabla table tr td {	
+	text-align: center;
+	height: 2rem;
+	padding: .1rem;
+	border: 1px solid #fff;
+}
+
+.dni-column{
+	width:6rem;
+	padding: 0 1rem;
+}
+.horario{
+	color: #4045b8;	
+	font-size: 1.5rem;
+}
+
+.acciones {
+	width: 4rem;
+	padding: 0 1rem;
+	background-color: #4045b830;
+	font-weight: lighter;
+}
+
+.formulario {
+	margin-bottom: 10rem;
+}
