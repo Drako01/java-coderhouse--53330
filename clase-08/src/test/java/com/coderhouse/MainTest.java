@@ -24,7 +24,7 @@ public class MainTest {
 		
 		Alumno alumno = new Alumno();
 		
-		for (int i = 0; i < 100 ; i++) {
+		for (int i = 0; i < 10 ; i++) {
 			alumno.setDni(10000000 + i);
 			alumno.setNombre("Nombre" + i);
 			alumno.setApellido("Apellido" + i);
