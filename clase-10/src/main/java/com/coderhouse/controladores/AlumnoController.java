@@ -50,18 +50,28 @@ public class AlumnoController {
 		}
 
 	}
-	
+
 	@PostMapping(value = "/agregar", consumes = { MediaType.APPLICATION_JSON_VALUE })
-	public ResponseEntity<Alumno> agregarAlumno(@RequestBody Alumno alumno){
+	public ResponseEntity<Alumno> agregarAlumno(@RequestBody Alumno alumno) {
 		alumnoRepository.save(alumno);
 		return new ResponseEntity<>(alumno, HttpStatus.CREATED); // Codigo 201
 	}
-	
+
 	@GetMapping(value = "/{id}/eliminar", produces = { MediaType.APPLICATION_JSON_VALUE })
-	public ResponseEntity<Void> eliminarAlumnoPorDNI (@PathVariable("id") Integer dni){
+	public ResponseEntity<Void> eliminarAlumnoPorDNI(@PathVariable("id") Integer dni) {
 		try {
 			alumnoRepository.deleteById(dni);
-			return new ResponseEntity<>( HttpStatus.NO_CONTENT);
+			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		} catch (EmptyResultDataAccessException e) {
+			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR); // Error 500
+		}
+	}
+
+	@PostMapping(value = "/{id}/editar", consumes = { MediaType.APPLICATION_JSON_VALUE })
+	public ResponseEntity<Alumno> editarAlumno(@PathVariable("id") Integer dni, @RequestBody Alumno alumno) {
+		try {
+			alumnoRepository.save(alumno);
+			return new ResponseEntity<>(alumno, HttpStatus.OK);
 		} catch (EmptyResultDataAccessException e) {
 			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR); // Error 500
 		}

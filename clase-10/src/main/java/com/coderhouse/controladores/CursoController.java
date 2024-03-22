@@ -7,6 +7,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -30,6 +33,22 @@ public class CursoController {
 			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR); // Error 500
 		}
 
+	}
+
+	@PostMapping(value = "/agregar", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<Curso> agregarCurso(@RequestBody Curso nuevoCurso) {
+		Curso cursoGuardado = cursoRepository.save(nuevoCurso);
+		return new ResponseEntity<>(cursoGuardado, HttpStatus.CREATED);
+	}
+
+	@GetMapping(value = "/{id_curso}/eliminar", produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<Void> eliminarCurso(@PathVariable("id_curso") Integer idCurso) {
+		try {
+			cursoRepository.deleteById(idCurso);
+			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		} catch (Exception e) {
+			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+		}
 	}
 
 }
