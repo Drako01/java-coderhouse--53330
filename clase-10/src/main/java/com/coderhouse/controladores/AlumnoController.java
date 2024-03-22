@@ -3,7 +3,6 @@ package com.coderhouse.controladores;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -57,24 +56,6 @@ public class AlumnoController {
 		return new ResponseEntity<>(alumno, HttpStatus.CREATED); // Codigo 201
 	}
 
-	@GetMapping(value = "/{id}/eliminar", produces = { MediaType.APPLICATION_JSON_VALUE })
-	public ResponseEntity<Void> eliminarAlumnoPorDNI(@PathVariable("id") Integer dni) {
-		try {
-			alumnoRepository.deleteById(dni);
-			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-		} catch (EmptyResultDataAccessException e) {
-			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR); // Error 500
-		}
-	}
-
-	@PostMapping(value = "/{id}/editar", consumes = { MediaType.APPLICATION_JSON_VALUE })
-	public ResponseEntity<Alumno> editarAlumno(@PathVariable("id") Integer dni, @RequestBody Alumno alumno) {
-		try {
-			alumnoRepository.save(alumno);
-			return new ResponseEntity<>(alumno, HttpStatus.OK);
-		} catch (EmptyResultDataAccessException e) {
-			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR); // Error 500
-		}
-	}
+	
 
 }
